@@ -1,0 +1,35 @@
+/* Footer
+=================================================================== */
+
+.footer {
+  padding-top: 28px;
+  padding-bottom:9px;
+  font-size: 0;
+  background-color:rgb(0, 0, 0);
+}
+
+.footer a {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);      
+}
+
+.image-footer {
+  height: 23px;   
+}
+
+.unicode {
+  margin-top: 17px;
+  font-weight: normal;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer li {
+  display: inline-block;
+}

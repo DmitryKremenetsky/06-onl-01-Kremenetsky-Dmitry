@@ -1,0 +1,48 @@
+/*
+AWSOME
+=============================================================*/
+.main-our-process {
+  font-size: 0px;
+  padding-top: 68px;
+  padding-bottom: 89px;
+}
+
+.card {
+  display: inline-block;
+  width: 350px;
+  height: 225px;
+  margin: 0 16px;  
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid rgb(231, 36, 36);
+}
+
+.icon-lamp {
+  background: no-repeat center url(../img/bulb.png);
+}
+.icon-keyboard {
+  background: no-repeat center url(../img/keyboard.png);
+}
+.icon-ligtning {
+  background: no-repeat center url(../img/lightning.png);
+}
+
+.card-title {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 20px;
+  color:rgb(51, 51, 51);
+}
+
+.text {
+  font-weight: normal;
+  font-size: 14px;
+  color:rgb(0,0,0);
+  height: 60px;
+}
