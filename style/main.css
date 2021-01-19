@@ -5,15 +5,8 @@ body {
 }
 
 nav {
+  height: 70px;
   background: #000000;
-}
-
-h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  text-transform: uppercase;
-  /* text-align: center; */
 }
 
 h4 {
@@ -23,24 +16,28 @@ h4 {
   text-align: center;
 }
 
+.container {
+  padding: 2px 90px;
+}
+
 .button-download {
   display: block;
   border: 1px solid #ffffff;
   padding: 10px 25px;
   width: 135px;
-  font-weight: 600;
   font-size: 15px;
   text-align: center;
   line-height: 20px;
   color: #ffffff;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .button-download:hover {
   transition-property: all;
   transition-duration: 0.5s;
-  color: black;
-  background-color: floralwhite;
+  background-color: black;
+  opacity: 80%;
 }
 
 
@@ -88,3 +85,51 @@ h4 {
 
 /* header content
 ================================================================================ */
+
+.banner {
+  height: 601px;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/bunner-header.png) no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 110px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner-content__main {
+  width: 545px;
+}
+
+.banner h2 {
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 32px;
+  text-transform: uppercase;
+}
+
+.banner-content__main-line {
+  width: 65px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  margin-top: 32px;
+}
+
+.banner-content__main-text {
+  width: 225px;
+  color: #ffffff;
+  opacity: 80%;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
