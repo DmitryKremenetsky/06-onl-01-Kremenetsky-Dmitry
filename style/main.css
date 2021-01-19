@@ -133,3 +133,126 @@ h4 {
   margin-bottom: 40px;
   font-size: 16px;
 }
+
+/* social media comtent
+============================================================================== */
+
+.social {
+  padding: 15px 0;
+  background: #F8EFEF;
+  }
+
+.social .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-text {
+  width: 365px;
+}
+
+.social-text__title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+}
+.social-text__main-text {
+  font-weight: 400;
+  margin-top: 14px;
+  color: #86878B;
+}
+
+.social-media {
+  width: 685px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+.social-media__item {
+  font-size: 42px;
+}
+
+.social-media__icon,
+.social-media__icon:visited,
+.social-media__icon:active {
+  color: #cccccc;
+  transition-property: all;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  }
+
+.social-media__icon:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/* main content 
+=============================================================== */
+
+.awesome-title {
+  margin: 100px 0 25px;
+  text-transform: uppercase;
+  color: #212121;
+  text-align: center;
+}
+
+.awesome-line {
+  width: 65px;
+  height: 0px;
+  margin: 0 auto 30px;
+  border: 1px solid #D98943;
+}
+
+.awesome-text {
+  margin-bottom: 60px;
+  color: #86878B;
+  font-weight: 400;
+  text-align: center;
+  }
+
+.awesome-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.awesome-card__item {
+  width: 350px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin: 0 10px 10px;
+}
+
+.awesome-card__item:hover {
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+
+.awesome-card__circle {
+  width: 71px;
+  height: 71px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D98943;
+}
+
+.awesome-card__title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+}
+
+.awesome-card__text {
+  line-height: 20px;
+  text-align: center;
+}
