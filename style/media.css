@@ -10,8 +10,15 @@
 ==============================================================  */
 
 @media (max-width: 970px){
+
+  .banner-content__main {
+    display: flex;
+    flex-direction: column;
+  }
+
   .form__fields {
-    display: none;
+    width: 100%;
+    display: block;
   }
 }
 
