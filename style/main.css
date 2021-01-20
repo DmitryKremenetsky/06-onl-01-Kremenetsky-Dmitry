@@ -41,7 +41,7 @@ h4 {
 }
 
 
-/* header content
+/* navigation content 
 =========================================================================================== */
 
 .navigation-bar {
@@ -126,8 +126,8 @@ h4 {
   opacity: 70%;
 }
 
-/* header content
-================================================================================ */
+/* header content 
+====================================================================== */
 
 .banner {
   height: 601px;
@@ -176,6 +176,7 @@ h4 {
   margin-bottom: 40px;
   font-size: 16px;
 }
+
 
 /* social media comtent
 ============================================================================== */
@@ -236,30 +237,22 @@ h4 {
 
 .features {
   display: flex;
-  flex-direction: column;
-  padding: 125px 110px;
-}
-
-.features-image {
-  background: url(../img/Feautures-Tower.png) no-repeat;
-  background-position: right;
+  justify-content: center;
+  height: 601px;
+  margin: 125px 112px;
 }
 
 .tab {
   width: 112px;
   height: 110px;
-  margin: 10px 110px;
-  align-items: center;
+  margin: 10px auto;
   background-color: #000000;
 }
 
-.tab:hover {
-  background-color: red;
-  transform: scale(0.8);
-}
-
-.tab-text {
-  font-family: Open Sans;
+.tab__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -268,32 +261,32 @@ h4 {
   color: #ffffff;
 }
 
+.tab:hover {
+  background-color: red;
+  transform: scale(1.1, 1.1);
+}
+
 .features__title {
-  position: absolute;
-  margin: 5px 300px;
-  font-family: Open Sans;
+  display: flex;
+  justify-content: space-between;
+  width: 408px;
+  height: 27px;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
   line-height: 27px;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 .features__subtitle {
-  position: absolute;
   width: 572px;
   height: 133px;
-  margin: 55px 300px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 19px;
-  text-transform: uppercase;
-  
+  text-align: left;
   color: #86878B;
 }
-
 
 /* awsome content 
 ======================================================================== */
