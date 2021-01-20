@@ -177,6 +177,59 @@ h4 {
   font-size: 16px;
 }
 
+.form__fields {
+  border-radius: 8px 8px 8px 8px;
+  background-color:rgb(255, 255, 255);
+}
+
+.form__fields span {
+  text-transform: uppercase;
+  color:rgb(255,0,0);
+}
+
+.form__fields div input {
+  width: 252px;
+  font-weight: normal;
+  font-size: 14px;
+  border: none;
+  background: transparent;
+  border-bottom: 3px solid rgb(189, 189, 189);
+}
+
+.username {
+  margin-top: 28px;
+}
+
+.form__fields div {
+  height: 57px;
+  text-align: center;
+}
+
+.password {
+  margin-bottom: 61px;
+}
+
+.form__fields p {
+  height: 56px;
+  padding-top:18px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(51, 51, 51);
+}
+
+.form__signin-button {
+  width: 370px;
+  height: 54px;
+  font-weight: 600;
+  font-size: 15px;
+  color:rgb(255, 255, 255);
+  background-color:rgb(236, 121, 121);
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+}
 
 /* social media comtent
 ============================================================================== */
@@ -299,10 +352,6 @@ h4 {
   padding: 11px;
 }
 
-.features__image {
-  background-image: url(../img/feautures-tower.png);
-}
-
 /* awsome content 
 ======================================================================== */
 
@@ -346,7 +395,6 @@ h4 {
 .awesome-card__item:hover {
   transform: scale(1.1, 1.1);
   transition-duration: 0.5s;
-  transition-property: all;
 }
 
 .awesome-card__circle {
