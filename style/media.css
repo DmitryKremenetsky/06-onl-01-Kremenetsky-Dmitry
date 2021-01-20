@@ -1,17 +1,37 @@
+/* axit logo small
+============================================================== */
+
+@media (max-width: 970px){
+  
+}
+
+
+/* registration
+==============================================================  */
+
+@media (max-width: 970px){
+  .form__fields {
+    display: none;
+  }
+}
+
+/* burger 
+============================================================== */
+
 @media (max-width: 970px){
   .navigation-bar__menu {
-      display: none;
+    display: none;
   }
 
   .menu-btn {
-      display: block;
+    display: block;
   }
 }
 
 /* features content 
 =========================================================== */
 
-@media (max-width: 765px) {
+@media (max-width: 765px) and (max-width: 992px) {
   .features-container {
     flex-direction: column;
     margin: 0;
