@@ -7,3 +7,43 @@
       display: block;
   }
 }
+
+/* features content 
+=========================================================== */
+
+@media (max-width: 765px) {
+  .features-container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .features__tabs {
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0;
+  }
+
+  .features__tab {
+    margin: 0 5px;
+  }
+
+  .features__content {
+    align-items: center;
+    text-align: center;
+    margin: 0 0 15px 0;
+  }
+
+  .features__title {
+    margin-bottom: 15px;
+  }
+
+  .features__image-container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 334px) {
+  .features__image-container {
+    display: none;
+  }
+}
