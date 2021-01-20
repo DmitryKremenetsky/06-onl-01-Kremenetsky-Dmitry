@@ -487,3 +487,17 @@ h4 {
   color: #FFFFFF;
   background-color: #333333;
 }
+
+/* footer content
+============================================================================================ */
+
+.footer {
+  height: 80px;
+  background-color: black;
+}
+
+
+.coopyright {
+  color: #F8EFEF;
+  text-align: center;
+}
