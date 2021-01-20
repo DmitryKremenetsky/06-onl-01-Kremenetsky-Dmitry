@@ -74,3 +74,13 @@
     display: none;
   }
 }
+
+/* pricing 
+============================================================================ */
+
+@media (max-width: 765px) and (max-width: 992px) {
+  .pricing__card-index {
+    margin: 10px auto;
+  }
+}
+
