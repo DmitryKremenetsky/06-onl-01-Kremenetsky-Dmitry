@@ -11,9 +11,6 @@
 
 @media (max-width: 871px){
   .banner-content {
-    flex-wrap: wrap;
-  }
-  .form__fields {
     position: relative;
     z-index: 1;
     padding-top: 110px;
@@ -21,6 +18,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+  .form__fields {
+    
   }
 
 }
