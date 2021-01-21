@@ -25,7 +25,7 @@
           <li class="navigation-bar__menu_item"><a href="#" class="navigation-bar__menu_text">Reviews</a></li>
           <li class="navigation-bar__menu_item"><a href="#" class="navigation-bar__menu_text">Contact</a></li>
         </ul>
-        <div class="menu__burger-btn">
+        <div class="menu-btn">
           <span class="menu-btn__burger"></span>
         </div>
       </div>
@@ -33,7 +33,6 @@
   </nav>
   <header class="banner">
     <div class="container">
-      <div class="banner__container">
         <div class="banner-content">
           <div class="banner-content__main">
             <div class="banner-content__main-img"><img src="./img/big-axit-logo.svg" alt="big-axit-logo.svg"></div>
@@ -43,31 +42,21 @@
               Aenean</p>
             <a href="#" class="banner-content__main-button button-download">Download</a>
           </div>
-          <div class="form-container">
-            <div class="form__fields">
-              <p>Try your <span>free</span> trial today</p>
-              <form>
-                <div class="username">
-                  <label>
-                    <input type="text" placeholder="Name">
-                  </label>
-                </div>
-                <div class="email-adress">
-                  <label>
-                    <input type="email" placeholder="Email">
-                  </label>
-                </div>
-                <div class="password">
-                  <label>
-                    <input type="password" placeholder="Password">
-                  </label>
-                </div>
-                <button class="form__signin-button">Get started</button>
-              </form>
-            </div>
+          <div class="form__content">
+            <form class="form">
+              <p class="form__title">Try Your <span class="form-title_pink">free</span> Trial Today</p>
+              <div class="form__container">
+                <label for="banner.form.name" class="form__label">Name</label>
+                <input type="text" id="banner.form.name" class="form__input">
+                <label for="banner.form.email" class="form__label">Email</label>
+                <input type="email" id="banner.form.email" class="form__input">
+                <label for="banner.form.password" class="form__label">Password</label>
+                <input type="password" id="banner.form.password" class="form__input">
+              </div>
+              <button class="form__button" type="Submit">Get started</button>
+            </form>
           </div>
         </div>
-      </div>
   </header>
   <section class="social">
     <div class="container">
@@ -77,14 +66,14 @@
           Aenean euismod bibendum laoreet.</p>
       </div>
       <ul class="social-media">
-        <li class="social-media__item"><a href="https://www.facebook.com/" class="social-media__icon"></a></li>
-        <li class="social-media__item"><a href="https://twitter.com/"></a>
+        <li class="social-media__item"><a href="https://www.facebook.com/" class="social-media__icon fab fa-facebook-f"></a></li>
+        <li class="social-media__item"><a href="https://twitter.com/" class="social-media__icon fab fa-twitter"></a>
         </li>
-        <li class="social-media__item"><a href="https://www.google.com/" class="social-media__icon"></a></li>
-        <li class="social-media__item"><a href="https://www.pinterest.com" class="social-media__icon "></a></li>
-        <li class="social-media__item"><a href="https://www.instagram.com" class="social-media__icon"></a></li>
-        <li class="social-media__item"><a href="https://www.stumbleupon.com" class="social-media__icon fab "></a></li>
-        <li class="social-media__item"><a href="#"></a></li>
+        <li class="social-media__item"><a href="https://www.google.com/" class="social-media__icon fab fa-google-plus-g"></a></li>
+        <li class="social-media__item"><a href="https://www.pinterest.com" class="social-media__icon fab fa-pinterest"></a></li>
+        <li class="social-media__item"><a href="https://www.instagram.com" class="social-media__icon fab fa-instagram"></a></li>
+        <li class="social-media__item"><a href="https://www.stumbleupon.com" class="social-media__icon fab fab fa-stumbleupon"></a></li>
+        <li class="social-media__item"><a href="rss.com" class="social-media__icon fas fa-rss"></a></li>
       </ul>
     </div>
   </section>
@@ -223,20 +212,19 @@
               quo suscipit.
             </p>
           </div>
-          <div class="social__media-footer">
-
-          </div>
         </div>
     </section>
   </main>
   <section class="footer__banner">
-    <h2>Stylish Axure design</h1>
-      <h4>
+    <h2 class="footer-banner__title">Stylish Axure design</h1>
+      <h4 class="footer-banner__subtitle">
         Use the sections you need, remove the ones you don't.
         Create gorgeous prototypes faster than ever!
       </h4>
+      <button class="footer-button__download">Download</button>
   </section>
   <footer class="footer">
+    
     <p class="copyright">&#169; Disign by Dmitry Kremenetsky</p>
   </footer>
 </body>
