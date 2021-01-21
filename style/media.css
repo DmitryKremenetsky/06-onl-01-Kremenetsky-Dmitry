@@ -10,7 +10,9 @@
 ==============================================================  */
 
 @media (max-width: 871px){
-
+  .banner-content {
+    flex-wrap: wrap;
+  }
   .form__fields {
     flex-wrap: wrap;
     
