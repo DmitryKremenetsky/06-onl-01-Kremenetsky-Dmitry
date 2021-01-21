@@ -58,7 +58,7 @@ nav {
 }
 
 /*  Burger =======
-======================================*/
+================================================================*/
 
 .menu-btn {
   position: absolute;
@@ -495,7 +495,6 @@ nav {
 .pricing-card__index {
   position: relative;
   margin: -10px;
-  padding: 20px;
 }
 
 .pricing-card__space {
