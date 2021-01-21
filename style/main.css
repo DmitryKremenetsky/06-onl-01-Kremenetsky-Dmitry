@@ -9,13 +9,6 @@ nav {
   background: #000000;
 }
 
-h4 {
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  text-align: center;
-}
-
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -139,13 +132,17 @@ h4 {
   color: #FFFFFF;
   margin-top: 32px;
   text-transform: uppercase;
+  position: relative;
 }
 
-.banner-content__main-line {
+.banner h2::before{
+  content: '';
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 270px);
   width: 65px;
-  height: 0px;
-  border: 1px solid #ffffff;
-  margin-top: 32px;
+  height: 2px;
+  background-color: #ffffff;
 }
 
 .banner-content__main-text {
@@ -153,7 +150,7 @@ h4 {
   color: #ffffff;
   opacity: 80%;
   font-weight: 300;
-  margin-top: 40px;
+  margin-top: 65px;
   margin-bottom: 40px;
   font-size: 16px;
 }
@@ -375,19 +372,22 @@ h4 {
 ======================================================================== */
 
 .awesome-title {
-  margin: 100px 0 25px;
+  position: relative;
+  margin: 100px 0 65px;
   text-transform: uppercase;
   color: #212121;
   text-align: center;
 }
 
-.awesome-line {
+.awesome-title::before{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 25px);
   width: 65px;
-  height: 0px;
-  margin: 0 auto 30px;
-  border: 1px solid #D98943;
+  height: 2px;
+  background-color: red;
 }
-
 .awesome-text {
   margin-bottom: 60px;
   color: #86878B;
@@ -452,8 +452,34 @@ h4 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 0 -10px;
   margin-bottom: 80px;
+}
+
+.pricing__title {
+  position: relative;
+  margin: 80px 0 65px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #212121;
+}
+
+.pricing__title::before{
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 26px);
+  width: 65px;
+  height: 2px;
+  background-color: red;
+}
+
+.pricing__subtitle {
+  margin: 0 auto 65px;
+  text-align: center;
+  color: #86878B;
 }
 
 .pricing-card {
@@ -466,16 +492,9 @@ h4 {
   list-style-type: none;
 }
 
-.ricing__card-index {
+.pricing-card__index {
   position: relative;
-  margin: -10px auto;
-  width: 340px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  margin-right: 30px;
-  margin: 0 10px 10px;
-  list-style-type: none;
+  margin: -10px;
 }
 
 .pricing-card__space {
@@ -496,6 +515,29 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  background-color: #333333;
+}
+
+.pricing-card__price {
+  margin-bottom: 2px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+.pricing-card__subtitle {
+  width: 340px;
+  margin-bottom: 4px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
   background-color: #333333;
 }
 
