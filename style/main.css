@@ -545,7 +545,7 @@ nav {
 ======================================================================================================== */
 
 .footer__banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/img/banner-main.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/banner-main.png) no-repeat;
   background-size: cover;
   padding: 75px 0 40px;
   text-align: center;
