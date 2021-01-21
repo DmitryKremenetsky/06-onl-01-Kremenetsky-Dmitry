@@ -495,6 +495,7 @@ nav {
 .pricing-card__index {
   position: relative;
   margin: -10px;
+  padding: 20px;
 }
 
 .pricing-card__space {
@@ -541,6 +542,17 @@ nav {
   background-color: #333333;
 }
 
+/* banner content
+======================================================================================================== */
+
+.footer__banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/img/banner-main.png) no-repeat;
+  background-size: cover;
+  padding: 75px 0 40px;
+  text-align: center;
+}
+
+
 /* footer content
 ============================================================================================ */
 
@@ -549,7 +561,14 @@ nav {
   background-color: black;
 }
 
-.coopyright {
-  color: #F8EFEF;
+.social__media-footer {
+
+}
+
+.copyright {
+  font-size: 12px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-bottom: 0;
   text-align: center;
 }
