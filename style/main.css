@@ -540,11 +540,48 @@ nav {
 
 /* comments content */
 
+.comment__container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .comments-title {
   margin: 80px 0 34px;
   color: #212121;
   text-align: center;
 }
+
+.first__comment {
+  width: 298px;
+  height: 110px;
+  background: #E2E2E2;
+  border-radius: 7px;
+}
+
+.second__comment {
+  width: 298px;
+  height: 110px;
+  background: #E2E2E2;
+  border-radius: 7px;
+}
+
+.third__comment {
+  width: 298px;
+  height: 110px;
+  background: #E2E2E2;
+  border-radius: 7px;
+}
+
+.comment__text {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+
+
+
 
 /* banner content
 ======================================================================================================== */
