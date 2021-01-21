@@ -1,5 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
+
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .features-container {
     flex-direction: column;

@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
+  position: relative;
 }
 
 .navigation-bar__img {
@@ -73,7 +73,7 @@ nav {
 
 .menu-btn__burger {
   position: absolute;
-  top: 30px;
+  top: 13px;
   height: 2px;
   width: 30px;
   background-color: #ffffff;
