@@ -574,6 +574,7 @@ nav {
   background: #E2E2E2;
   border-radius: 7px;
   box-shadow: 1px 2px 15px 2px #86878B;
+  position: relative;
 }
 
 .comment__text {
@@ -583,7 +584,21 @@ nav {
   line-height: 19px;
 }
 
+.comment__person {
+  display: flex;
+  justify-content: space-between;
+}
 
+.comment__person-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.comment__person-photo-jeremy {
+  background: url(../img/jeremy.png) no-repeat;
+}
 
 
 /* banner content
