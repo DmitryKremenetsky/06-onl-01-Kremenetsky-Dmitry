@@ -652,8 +652,28 @@ nav {
   background-color: black;
 }
 
-.social__media-footer {
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto 18px auto;
+  font-size: 23px;
+}
 
+.footer-social__media {
+  margin: 0 13px 0 13px;
+}
+
+.footer-social__media,
+.footer-social__media:visited,
+.footer-social__media:active {
+  color: #cccccc;
+  transition-property: all;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  }
+
+.footer-social__media:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .copyright {
