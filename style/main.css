@@ -659,6 +659,58 @@ nav {
   background-color: #ffffff;
 }
 
+/* contact us content
+============================================================================================= */
+
+.form div input {
+  width: 478px;
+  height: 96px;
+  font-weight: normal;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.form div {
+  text-align: left;
+}
+
+.form-button {
+  margin: 69px 0 44px;
+  border-radius: 0 0 0 0;
+}
+
+form {
+  font-size: 0;
+}
+
+.left-part {
+  vertical-align: top;
+}
+
+.left-part,
+.text-area {
+  display: inline-block;
+}
+
+.text-area label textarea {
+  width: 478px;
+  height: 250px;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  font-weight: normal;
+  font-size: 14px;
+  background: transparent;
+}
+
+.text-area {
+  margin: 38px 0 0 222px;
+  vertical-align: top;
+}
+
+
 /* footer content
 ============================================================================================ */
 
