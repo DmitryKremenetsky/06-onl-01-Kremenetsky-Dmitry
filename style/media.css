@@ -43,6 +43,14 @@
   .text-area {
     padding: 0;
   }
+
+  .form__footer div input {
+    width: 255px;
+  }
+
+  .text-area label textarea {
+    width: 255px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -86,6 +94,14 @@
   .text-area {
     padding: 0;
   }
+
+  .form__footer div input {
+    width: 255px;
+  }
+
+  .text-area label textarea {
+    width: 255px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -116,6 +132,10 @@
 
   .features__image-container {
     text-align: center;
+  }
+
+  .text-area label textarea {
+    width: 255px;
   }
 }
 
@@ -159,6 +179,14 @@
 
   .text-area {
     padding: 0;
+  }
+
+  .form__footer div input {
+    width: 255px;
+  }
+
+  .text-area label textarea {
+    width: 255px;
   }
 }
 
