@@ -187,8 +187,8 @@ nav {
   color: #333333;
   font-weight: 700;
   text-align: center;
-  margin-top: 18px;
   margin-bottom: 44px;
+  padding-top: 15px;
 }
 
 .form__container {
@@ -580,12 +580,12 @@ nav {
   font-weight: 400;
 }
 
-.persons-comments {
+.person-comments {
   display: flex;
   justify-content: space-around;
 }
 
-.persons-comment {
+.person-comment {
   width: 300px;
   margin: 0 10px 120px;
 }
