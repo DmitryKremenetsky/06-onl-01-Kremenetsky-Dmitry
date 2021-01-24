@@ -52,6 +52,11 @@
   .persons-comments {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .pricing-card__index {
+    margin: 10px;
   }
 }
 
@@ -105,6 +110,11 @@
   .persons-comments {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .pricing-card__index {
+    margin: 10px;
   }
 }
 
@@ -142,6 +152,11 @@
   .persons-comments {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .pricing-card__index {
+    margin: 10px;
   }
 }
 
@@ -195,6 +210,15 @@
   .persons-comments {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .pricing-card__index {
+    margin: 10px;
+  }
+
+  .form {
+    width: 350px;
   }
 }
 
