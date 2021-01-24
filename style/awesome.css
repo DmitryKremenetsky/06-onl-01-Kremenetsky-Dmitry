@@ -1,0 +1,74 @@
+/* awsome content 
+======================================================================== */
+
+.awesome-title {
+  margin: 70px;
+  color: #212121;
+  text-align: center;
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.awesome-title::before{
+  content: '';
+  position: absolute;
+  top: 70px;
+  left: calc(50% - 30px);
+  width: 65px;
+  height: 2px;
+  background-color: red;
+}
+
+.awesome-text {
+  margin-bottom: 65px;
+  color: #86878B;
+  font-weight: 400;
+  text-align: center;
+}
+
+.awesome-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.awesome-card__item {
+  width: 350px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin: 0 10px 10px;
+}
+
+.awesome-card__item:hover {
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.5s;
+}
+
+.awesome-card__circle {
+  width: 71px;
+  height: 71px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D98943;
+}
+
+.awesome-card__title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+}
+
+.awesome-card__text {
+  line-height: 20px;
+  text-align: center;
+}

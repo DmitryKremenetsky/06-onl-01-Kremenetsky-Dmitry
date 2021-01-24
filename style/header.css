@@ -1,0 +1,130 @@
+/* header content 
+====================================================================== */
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/bunner-header.png) no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+
+  z-index: 1;
+  padding-top: 110px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.banner-content__main {
+  width: 545px;
+}
+
+.banner h2 {
+  position: relative;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 32px;
+  text-transform: uppercase;
+}
+
+.banner h2::before{
+  content: '';
+  position: absolute;
+  top: 115px;
+  left: calc(50% - 270px);
+  width: 65px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.banner-content__main-text {
+  width: 225px;
+  color: #ffffff;
+  opacity: 80%;
+  font-weight: 300;
+  margin-top: 71px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.button-download {
+  display: block;
+  border: 1px solid #ffffff;
+  padding: 10px 25px;
+  width: 135px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-download:hover {
+  transition-property: all;
+  transition-duration: 0.5s;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.form {
+  width: 370px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.form__title {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 44px;
+  padding-top: 15px;
+}
+
+.form__container {
+  width: 252px;
+  margin: 0 auto 70px auto;
+}
+
+.form-title_pink {
+  color: #EC7979;
+  text-transform: uppercase;
+}
+
+.form__label {
+  display: block;
+  font-weight: 400;
+  line-height: 19px;
+  color: #bdbdbd;
+  margin: 19px auto 0 auto;
+}
+
+.form__input {
+  display: block;
+  border-bottom: 1px solid #bdbdbd;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 2px;
+  width: 100%;
+  height: 20px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 16px 0 17px 0;
+  background-color: #ec7979;
+  border: none;
+  color: white;
+  border-radius: 0px 0px 8px 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}

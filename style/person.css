@@ -1,0 +1,86 @@
+/* comments content */
+
+.comments-title {
+  margin: 80px;
+  color: #212121;
+  text-align: center;
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.comments-title::before {
+  content: '';
+  position: absolute;
+  top: 65px;
+  left: calc(50% - 30px);
+  width: 65px;
+  height: 2px;
+  background-color: red;
+}
+
+.comment__subtitle {
+  margin: 0 auto 65px;
+  text-align: center;
+  color: #86878B;
+  font-size: 16px;
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 400;
+}
+
+.person-comments {
+  display: flex;
+  justify-content: space-around;
+}
+
+.person-comment {
+  width: 300px;
+  margin: 0 10px 120px;
+}
+
+.person-comment__message {
+  border-radius: 7px;
+  background-color: #E2E2E2;
+  padding: 10px 25px 6px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: #86878B;
+  box-shadow: 1px 2px 15px 2px #86878B;
+}
+
+.person-comment__person {
+  display: flex;
+  justify-content: space-around;
+}
+
+.person-comment__photo_jeremy {
+  background: url(../img/jeremy.png);
+}
+
+.person-comment__photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.person-comment__specific {
+  text-align: right;
+  margin-top: 8px;
+  line-height: 30px;
+}
+
+.person-comment__name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.person-comment__job {
+  color: #86878B;
+  font-weight: 400;
+}
