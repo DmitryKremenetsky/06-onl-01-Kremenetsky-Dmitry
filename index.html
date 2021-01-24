@@ -79,7 +79,7 @@
             class="social-media__icon fab fa-instagram"></a></li>
         <li class="social-media__item"><a href="https://www.stumbleupon.com"
             class="social-media__icon fab fab fa-stumbleupon"></a></li>
-        <li class="social-media__item"><a href="rss.com" class="social-media__icon fas fa-rss"></a></li>
+        <li class="social-media__item"><a href="https://rss.com/" class="social-media__icon fas fa-rss"></a></li>
       </ul>
     </div>
   </section>
@@ -191,37 +191,55 @@
       </div>
     </section>
 
-    <section class="customers">
+    <section class="persons">
       <div class="container">
-        <h2 class="comments-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
+        <h2 class="comments-title">WHAT OUR personS ARE SAYING</h2>
         <p class="comment__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="comment__container">
-          <div class="first__comment">
-            <p class="comment_text">Lorem ipsum dolor sit amet,
+        <div class="persons-comments">
+          <div class="persons-comment">
+            <div class="person-comment__message">Lorem ipsum dolor sit amet,
               consectetur adipisicing elit. Doloribus
               accusamus expedita repellat similique
               odio aspernatur ex, architecto eaque
               quo suscipit.
-            </p>
+            </div>
+            <div class="person-comment__person">
+              <div class="person-comment__photo person-comment__photo_jeremy"></div>
+              <div class="person-comment__specific">
+                <a class="person-comment__name">Jeremy</a>
+                <p class="person-comment__job">Manager</p>
+              </div>
+            </div>
           </div>
-          <div class="second__comment">
-            <p class="comment_text">Lorem ipsum dolor sit amet,
+          <div class="persons-comment">
+            <div class="person-comment__message">Lorem ipsum dolor sit amet,
               consectetur adipisicing elit. Doloribus
               accusamus expedita repellat similique
               odio aspernatur ex, architecto eaque
               quo suscipit.
-            </p>
+            </div>
+            <div class="person-comment__person">
+              <div class="person-comment__photo person-comment__photo_jeremy"></div>
+              <div class="person-comment__specific">
+                <a class="person-comment__name">Jeremy</a>
+                <p class="person-comment__job">Programmer</p>
+              </div>
+            </div>
           </div>
-          <div class="third__comment">
-            <p class="comment_text">Lorem ipsum dolor sit amet,
+          <div class="persons-comment">
+            <div class="person-comment__message">Lorem ipsum dolor sit amet,
               consectetur adipisicing elit. Doloribus
               accusamus expedita repellat similique
               odio aspernatur ex, architecto eaque
               quo suscipit.
-            </p>
-          </div>
-          <div class="comment__person">
-            <div class="comment__person-photo comment__person-photo-jeremy"></div>
+            </div>
+            <div class="person-comment__person">
+              <div class="person-comment__photo person-comment__photo_jeremy"></div>
+              <div class="person-comment__specific">
+                <a class="person-comment__name">Jeremy</a>
+                <p class="person-comment__job">Designer</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -230,11 +248,11 @@
 
   <section class="footer__banner">
     <h2 class="footer-banner__title">Stylish Axure design</h2>
-      <h4 class="footer-banner__subtitle">
-        Use the sections you need, remove the ones you don't.
-        Create gorgeous prototypes faster than ever!
-      </h4>
-      <button class="footer-button__download">Download</button>
+    <h4 class="footer-banner__subtitle">
+      Use the sections you need, remove the ones you don't.
+      Create gorgeous prototypes faster than ever!
+    </h4>
+    <button class="footer-button__download">Download</button>
   </section>
 
   <section class="contact-us" id="contacts">
@@ -244,27 +262,29 @@
         <h4 class="contact-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
         <div class="form__footer">
           <form>
-            <div class="left-part">
-              <div class="username-contact">
+            <div class="comment__information">
+              <div class="left-part">
+                <div class="username-contact">
+                  <label>
+                    <input type="text" placeholder="Name">
+                  </label>
+                </div>
+                <div class="email-adress-contact">
+                  <label>
+                    <input type="email" placeholder="Email">
+                  </label>
+                </div>
+                <div class="password-contact">
+                  <label>
+                    <input type="password" placeholder="Password">
+                  </label>
+                </div>
+              </div>
+              <div class="text-area">
                 <label>
-                  <input type="text" placeholder="Name">
+                  <textarea cols="30" rows="10" placeholder="Message"></textarea>
                 </label>
               </div>
-              <div class="email-adress-contact">
-                <label>
-                  <input type="email" placeholder="Email">
-                </label>
-              </div>
-              <div class="password-contact">
-                <label>
-                  <input type="password" placeholder="Password">
-                </label>
-              </div>
-            </div>
-            <div class="text-area">
-              <label>
-                <textarea cols="30" rows="10" placeholder="Message"></textarea>
-              </label>
             </div>
             <button class="contact-form__button">Download</button>
           </form>
@@ -288,7 +308,7 @@
             class="footer-social__media fab fa-instagram"></a></li>
         <li class="footer-social__media"><a href="https://www.stumbleupon.com"
             class="footer-social__media fab fab fa-stumbleupon"></a></li>
-        <li class="footer-social__media"><a href="rss.com" class="footer-social__media fas fa-rss"></a></li>
+        <li class="footer-social__media"><a href="https://rss.com/" class="footer-social__media fas fa-rss"></a></li>
       </ul>
       <p class="copyright">&#169; Design by Dmitry Kremenetsky</p>
     </div>

@@ -44,12 +44,14 @@
     padding: 0;
   }
 
-  .form__footer div input {
-    width: 255px;
+  .comment__information {
+    display: flex;
+    flex-direction: column;
   }
 
-  .text-area label textarea {
-    width: 255px;
+  .persons-comments {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -95,12 +97,14 @@
     padding: 0;
   }
 
-  .form__footer div input {
-    width: 255px;
+  .comment__information {
+    display: flex;
+    flex-direction: column;
   }
 
-  .text-area label textarea {
-    width: 255px;
+  .persons-comments {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -130,12 +134,14 @@
     margin-bottom: 15px;
   }
 
-  .features__image-container {
-    text-align: center;
+  .comment__information  {
+    display: flex;
+    flex-direction: column;
   }
 
-  .text-area label textarea {
-    width: 255px;
+  .persons-comments {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -181,12 +187,14 @@
     padding: 0;
   }
 
-  .form__footer div input {
-    width: 255px;
+  .comment__information {
+    display: flex;
+    flex-direction: column;
   }
 
-  .text-area label textarea {
-    width: 255px;
+  .persons-comments {
+    display: flex;
+    flex-direction: column;
   }
 }
 
