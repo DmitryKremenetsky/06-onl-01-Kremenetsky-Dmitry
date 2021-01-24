@@ -724,7 +724,7 @@ nav {
   background-color: red;
 }
 
-.contact-text {
+.contact-subtitle {
   margin: 60px auto 95px;
   text-align: center;
   color: #86878B;
@@ -735,6 +735,7 @@ nav {
 }
 
 .form__footer div input {
+  width: 100%;
   height: 96px;
   font-weight: normal;
   font-size: 14px;
@@ -751,11 +752,10 @@ nav {
   vertical-align: top;
 }
 
-.left-part,
-.text-area {
+.left-part {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  width: 300px;
 }
 
 .text-area label textarea {
